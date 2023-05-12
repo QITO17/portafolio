@@ -1,0 +1,118 @@
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    color: fff !important;
+}
+
+.tec{
+    color: rgb(247, 92, 92) !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteiner1{
+    height: 100%;
+    background-image: url('./Components/img/cfes.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    
+}
+.conteiner1 h1{
+    font-size: 2rem;
+    padding: 0 5px;
+}
+
+.conteiner1 p{
+    padding: 5px;
+}
+
+.nombre{
+    color: rgb(139, 139, 238) !important;
+}
+
+.content--imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+    gap: 15px;
+    margin: auto;
+}
+
+.imagenes{
+    width: 270px;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 5px #b4aaaa81;
+}
+
+.imagenes img:hover{
+    background-color: rgba(0, 0, 0, 0.082);
+    transition: 1s;
+}
+
+.hobbies{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.hobbies div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hobi1{
+    background-color: #e47070;
+    border: solid 1px #e47070;
+}
+
+.hobi2{
+    background-color: #8079df;
+    border: solid 1px #8079df;
+}
+
+.hobi3{
+    background-color: #ce82ec;
+    border: solid 1px #ce82ec;
+}
+
+.hobi1 p, .hobi2 p, .hobi3 p{
+    color: #fff !important;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.hobbies div:hover{
+    transition: 2s;
+    background-color: #000;
+}
+
+.present{
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 50px;
+}
