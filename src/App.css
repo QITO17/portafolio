@@ -368,11 +368,11 @@ i{
 }
 
 .sas{
-    background-image: url('https://wallpapers.com/images/featured/9nrqsd2qyhwbo7fq.jpg');
+    background-image: url('./Components/img/astronave.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
 }
 
 .videoo{

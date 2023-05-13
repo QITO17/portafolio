@@ -5,12 +5,14 @@ import js from './img/js.png'
 import reactlogo from './img/reactlogo.png'
 import taild from './img/taild.png'
 import '../style.css'
+import { Link } from 'react-router-dom'
 
 
 
 const AboutMe = () => {
   return (
     <div className='conteiner1'>
+        <Link to="/" className="home"><p>HOME</p></Link>
         <div className='present'>
             <h1 className='nombre'>hello welcome</h1>
             <p>

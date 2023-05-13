@@ -9,10 +9,12 @@ import crud from './img/crud.png'
 import blog from './img/blog.png'
 import Ecommerce from './img/Ecommerce.png'
 import ecommerce2 from './img/ecommerce2.png'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
     <>
+    <Link to="/" className="home"><p>HOME</p></Link>
     <h1 className='title--pro'>Welcome to my projects </h1>
     <div className='content--all--card'>
         <section className='conteiner--card'>

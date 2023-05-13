@@ -16,11 +16,11 @@ body{
 }
 .conteiner1{
     height: 100%;
-    background-image: url('./Components/img/cfes.jpg');
+    background-image: url('./Components/img/gatito.png');
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
-    background-position: top right;
+    background-position: top center;
     background-attachment: fixed;
     
 }
@@ -31,6 +31,9 @@ body{
 
 .conteiner1 p{
     padding: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ff2448 !important;
 }
 
 .nombre{
@@ -114,4 +117,22 @@ body{
     max-width: 1024px;
     margin: auto;
     padding-top: 50px;
+}
+
+.home{
+    border-radius: 5px;
+    border: solid 1px #8079df;
+    max-width: 150px;
+    min-width: 149px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    padding: 8px;
+    background-color: #8079df;
+    text-align: center;
+}
+
+.home:hover{
+    transition: 1s;
+    background-color: #8079df86;
 }

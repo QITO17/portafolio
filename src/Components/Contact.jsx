@@ -1,5 +1,6 @@
 import React from 'react'
-import vf from './img/sas.png'
+import vf from './img/men.png'
+import { Link } from 'react-router-dom'
 const Contact = () => {
     const respon = (e) => {
         e.preventDefault()
@@ -8,6 +9,7 @@ const Contact = () => {
   return (
   
     <section className='conctat'>
+        <Link to="/" className="home"><p>HOME</p></Link>
        
         <div className='sas'>            
         </div>
