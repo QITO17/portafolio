@@ -11,6 +11,7 @@ import imgGoogle from './img/imgGoogle.png'
 import Acaprojects from './Acaprojects'
 import { Link } from 'react-router-dom'
 import Videover from './Videover'
+import videoo from './video/bg.mp4'
 const Main = () => {
     const remove = () => {
         const banner = document.querySelector('.conteiner--nav');
@@ -24,7 +25,13 @@ const Main = () => {
         banner.classList.add('show--nav')
     }
   return (
-    <>
+<div className='v22'>
+    <div className='v2'>
+        <video loop autoPlay muted className='videoo'>
+            <source src={videoo} type="video/mp4" />
+        </video>
+    </div>
+    
     <header>
         <nav className="navegation">
             <div className="conteiner--nav">
@@ -41,6 +48,7 @@ const Main = () => {
                 <button className='enjoy' onClick={remove}>Cerrar</button>
             </div>
         </nav>
+        
         <div className="conteinerHeader">
             <div className="conteiner">
                 <img src={logo} alt="logo" className='logo'/>
@@ -146,7 +154,7 @@ const Main = () => {
                 </div>
                 <div className="conteiner--img--code">
                     <div className="conteiner--images container--image--code">
-                        <img className='image5' src={imgCode} alt="" />
+                        <img className='image5' src={imgCode} alt=""/>
                     </div>
                 </div>
             </div>
@@ -170,7 +178,7 @@ const Main = () => {
             </div>
         </div>
     </footer>
-</>
+</div>
   )
 }
 

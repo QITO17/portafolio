@@ -163,7 +163,8 @@ const Projects = () => {
                     <p>Stars</p>
                     <span>⭐⭐⭐⭐</span>
                 </div>
-            </div>            
+            </div>        
+                
         </section>
 
         <section className='conteiner--card'>

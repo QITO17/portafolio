@@ -340,7 +340,7 @@ i{
     border-radius: 50px;
 }
 .motive{
-    color: #f86262 !important;
+    color: #7e62f8 !important;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -376,12 +376,29 @@ i{
 }
 
 .videoo{
+    z-index: -5;
     width: 100%;
 }
 
 .title--pro{
     text-align: center;
     padding-top: 30px;
+}
+
+.v2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.v2 video{
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
 }
 
 @media (min-width:795px) {

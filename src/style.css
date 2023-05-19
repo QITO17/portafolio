@@ -11,12 +11,19 @@ ul, li{
 .tec{
     color: rgb(247, 92, 92) !important;
 }
-body{
-    
+
+.v2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
 }
 .conteiner1{
     height: 100%;
-    background-image: url('./Components/img/gatito.png');
+    background-image: url('./Components/img/estrella.png');
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
@@ -33,7 +40,7 @@ body{
     padding: 5px;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff2448 !important;
+    
 }
 
 .nombre{
@@ -53,13 +60,15 @@ body{
 }
 
 .imagenes{
-    width: 270px;
+    width: 100%;
+    max-width: 260px;
+    height: 260px;
+    background-color: #fff;
 }
 
 .imagenes img{
     width: 100%;
     height: 100%;
-    box-shadow: 2px 2px 5px #b4aaaa81;
 }
 
 .imagenes img:hover{

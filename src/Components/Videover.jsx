@@ -1,5 +1,5 @@
 import React from 'react'
-import videoo from './video/astro.mp4'
+import videoo from './video/astro1.webm'
 
 const Videover = () => {
   return (
